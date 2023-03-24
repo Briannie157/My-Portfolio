@@ -386,13 +386,15 @@ nav .fas{
     #header{
         background-image: url(images/phone-background.png);
     }
-    .text-box{
-        margin-top: 100%;
+    .text-box p{
+        margin: auto;
         font-size: 16px;
+        position: relative;
 
     }
     .text-box h1{
         font-size: 30px;
+        margin: auto auto 10px;
     }
     nav .fas{
         display: block;
