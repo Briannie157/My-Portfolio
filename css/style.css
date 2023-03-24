@@ -18,37 +18,43 @@ body{
     height: 100vh;
     background-size: cover;
     background-position: center;
+    margin-bottom: 80px;
 }
 
 .banner{
-    background-image: linear-gradient(rgba(216, 28, 28, 0.7),rgba(51, 48, 48, 0.7)),url("images/Grad.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/cmp.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     position: relative;
     height: 100vh;
+    margin-bottom: 150px;
 }
 .text-box{
     width: 90%;
-    color: #ec83c9;
+    color: #1deaf8;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:cursive;
     transform: translate(-50%,-50%);
 }
+
 .text-box p{
-    font-size: 30px;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
 }
 .text-box h1{
     margin: 20px 0 40px;
-    color: #fff;
-    font-size: 62px;
-  
+    color: #fffeff;
+    font-size: 65px;
+    font-family:'Times New Roman', Times, serif
 }
 
 .container{
-    padding: 10px 10%;
+    padding: 0 10%;
    }
 
 nav{
@@ -380,12 +386,12 @@ nav .fas{
     #header{
         background-image: url(images/phone-background.png);
     }
-    .header-text{
+    .text-box{
         margin-top: 100%;
         font-size: 16px;
 
     }
-    .header-text h1{
+    .text-box h1{
         font-size: 30px;
     }
     nav .fas{
