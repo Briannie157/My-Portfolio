@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,11 @@
     <link rel="shortcut icon" href="css/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/b4215f402a.js" crossorigin="anonymous"></script>
-    
+
 </head>
+
 <body>
-    
+
     <div id="header">
         <div class="container">
 
@@ -27,16 +29,26 @@
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class="header-text">
+            <section class="banner">
+                <div class="text-box">
+                    <h1>Nyamumbe Brian</h1>
+                    <p>Hello! Welcome to my portfolio.<br>
 
-                <h1>Hi, I'm <span> Brian </span> <br>  from Kenya</h1>
+                        “when you don't create things, you become defined by your tastes rather than ability.
+                        Your tastes only narrow & exclude people. so create.”
+                    </p>
+                </div>
+            </section>
+            <!-- <div class="header-text">
+
+                <h1>Hi, I'm <span> Brian </span> <br> from Kenya</h1>
                 <p> IT Specialist</p>
                 <p> Web Developer</p>
                 <p> Graphic Designer</p>
-            </div>
+            </div> -->
         </div>
     </div>
-                    <!-- About Section -->
+    <!-- About Section -->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -47,247 +59,271 @@
                     <h1 class="sub-title">About Me</h1>
 
                     <p>
+                    <ul>
+                        <li>I am a Fullstack web developer and a graphics designer with industry experience building
+                            websites and web applications.</li>
+                        <li>I specialize in JavaScript and have professional experience working with Nodejs and React.
+                        </li>
+                        <li>Excellent in software installation and providing user support on the use of computer
+                            hardware and software applications.</li>
+                        <li>Possess in depth understanding of diverse computer systems and networks therefore, I am
+                            excellent in the technical aspects of IT technology.</li>
+                        <li>Excellent diagnostic and problem-solving skills.</li>
+                        <li>Proficient in database use particularly MySQL and MongoDB.</li>
+                        <li>Ability to speak, listen, read, and write in German language.</li>
+                        <li>Ability to maintain a professional appearance.</li>
+                    </ul>
+
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                        <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                        <p class="tab-links" onclick="opentab('education')"> Education </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li>I am a Fullstack web developer and a graphics designer with industry experience building websites and web applications.</li>
-                            <li>I specialize in JavaScript and have professional experience working with Nodejs and React.</li>
-                            <li>Excellent in software installation and providing user support on the use of computer hardware and software applications.</li>
-                            <li>Possess in depth understanding of diverse computer systems and networks therefore, I am excellent in the technical aspects of IT technology.</li>
-                            <li>Excellent diagnostic and problem-solving skills.</li>
-                            <li>Proficient in database use particularly MySQL and MongoDB.</li>
-                            <li>Ability to speak, listen, read, and write in German language.</li>
-                            <li>Ability to maintain a professional appearance.</li>
-                        </ul>                                    
-                       
-                        </p>
+                            <li> <span> Web Development: </span> <br> Designing interactive Websites. </li>
+                            <li> <span> Graphics Design: </span> <br> Designing beautiful and amazing Graphics. </li>
+                            <li> <span> Database Administration: </span> <br> Database admin and use; MySQL and MongoDB.
+                            </li>
+                            <li> <span> Online Writing: </span> <br> Writing world class articles and Essays. </li>
+                            <li><span> German Language: </span> <br> Ich kann sehr gut Deutsch sprechen und mich
+                                vorstellen.</li>
+                        </ul>
+                    </div>
 
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
-                            <p class="tab-links" onclick="opentab('experience')"> Experience </p>
-                            <p class="tab-links" onclick="opentab('education')"> Education </p>
-                        </div>
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>                                
-                                <li> <span> Web Development: </span> <br> Designing interactive Websites.  </li> 
-                                <li> <span> Graphics Design: </span> <br> Designing beautiful and amazing Graphics. </li>
-                                <li> <span> Database Administration: </span> <br> Database admin and use; MySQL and MongoDB.</li>
-                                <li> <span> Online Writing: </span> <br> Writing world class articles and Essays. </li>
-                                <li><span> German Language: </span> <br> Ich kann sehr gut Deutsch sprechen und mich vorstellen.</li> 
-                            </ul>
-                        </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current </span> <br> Currently learning UI/UX Designing.</li>
+                            <li><span> 2022- Current </span> <br> Designing wonderful graphic designs to meet a client's
+                                expectations.</li>
+                            <li> <span> 2020 - Current </span> <br> I am working as a freelancer, designing responsive
+                                websites in accordance with the changing technology of Web Development applications.
+                            </li>
+                            <li> <span> May 2022 - July 2022 </span> <br> I worked as an IT intern at The
+                                Eldoret Law Courts in Eldoret. </li>
+                            <li> <span> 2018 - 2022 </span> <br> I worked with students in the field of science
+                                and interacting with lecturers at the university of Eldoret to
+                                ensure I built a strong foundation in my career. </li>
+                            <li> <span> 2016 - Current </span> <br> Interacting in German Language. </li>
+                        </ul>
+                    </div>
 
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>2023 - Current </span> <br> Currently learning UI/UX Designing.</li>
-                                <li><span> 2022- Current </span> <br> Designing wonderful graphic designs to meet a client's expectations.</li> 
-                                <li> <span> 2020 - Current </span> <br> I am working as a freelancer, designing responsive websites in accordance with the changing technology of Web Development applications. </li> 
-                                <li> <span> May 2022 - July 2022 </span> <br> I worked as an IT intern at The
-                                    Eldoret Law Courts in Eldoret.  </li>
-                                <li> <span> 2018 - 2022 </span> <br> I worked with students in the field of science
-                                    and interacting with lecturers at the university of Eldoret to
-                                    ensure I built a strong foundation in my career. </li>
-                                <li> <span> 2016 - Current </span> <br> Interacting in German Language. </li>
-                            </ul>
-                        </div>
-
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li> <span> 2023 - Current </span> <br> German B1 Zertifikat von Goethe-Institut, Nairobi</li>
-                                <li> <span> 2023 - Current </span> <br> UI/UX Design from Udemy.com, Online Academy</li>
-                                <li><span> 2022 - Current </span> <br> Graphics Design from LearnIt Training.com </li>
-                                <li> <span> 2021 - 2023 </span> <br> Website Development Bootcamp from Udemy.com, Online Academy  </li>
-                                <li> <span> 2018 - 2022 </span> <br> BSC.Information Technology from University of Eldoret, Eldoret. </li>
-                                <li> <span> 2018 </span> <br> Certificate in Computer Packages from Kenya Insitute of Management Studies, Nanyuki. </li>
-                                <li> <span> 2016 </span> <br> German A2 Zertifikat von Goethe-Institut, Munich. </li>
-                            </ul>
-                        </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span> 2023 - Current </span> <br> German B1 Zertifikat von Goethe-Institut, Nairobi
+                            </li>
+                            <li> <span> 2023 - Current </span> <br> UI/UX Design from Udemy.com, Online Academy</li>
+                            <li><span> 2022 - Current </span> <br> Graphics Design from LearnIt Training.com </li>
+                            <li> <span> 2021 - 2023 </span> <br> Website Development Bootcamp from Udemy.com, Online
+                                Academy </li>
+                            <li> <span> 2018 - 2022 </span> <br> BSC.Information Technology from University of Eldoret,
+                                Eldoret. </li>
+                            <li> <span> 2018 </span> <br> Certificate in Computer Packages from Kenya Insitute of
+                                Management Studies, Nanyuki. </li>
+                            <li> <span> 2016 </span> <br> German A2 Zertifikat von Goethe-Institut, Munich. </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-                    <!-- Services -->
+    <!-- Services -->
 
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title"> My Services</h1>
-        <div class="services-list">
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
 
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Design</h2>
-                <p> I am a passionate Web Designer with industry experience building websites and web applications.
-                   Fluent in employing these languages to my websites; HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApp.
-                </p>
-                
-            </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> I am a passionate Web Designer with industry experience building websites and web applications.
+                        Fluent in employing these languages to my websites; HTML, CSS, Javascript, Node, React, MongoDB,
+                        Web3 and DApp.
+                    </p>
 
-            <div>
-                <i class="fa-solid fa-crop"></i>
-                <h2>Graphics Design</h2>
-                <p> I have a deep understanding of typography, color theory, photos, layout, blocking and other design theory and skills. 
-                    I understand solid logo design and ad design principles to create compelling campaigns and logos.
-                </p>
-                   
-            </div>
-            
+                </div>
 
-            <div>
-                <i class="fa-brands fa-app-store"></i>
-                <h2>Technical Aspects of IT Technology</h2>
-                <p> 
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Graphics Design</h2>
+                    <p> I have a deep understanding of typography, color theory, photos, layout, blocking and other
+                        design theory and skills.
+                        I understand solid logo design and ad design principles to create compelling campaigns and
+                        logos.
+                    </p>
+
+                </div>
+
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Technical Aspects of IT Technology</h2>
+                    <p>
                     <ul>
-                        <li> Installation and configuration of hardware and software components to ensure usability.</li>
+                        <li> Installation and configuration of hardware and software components to ensure usability.
+                        </li>
                         <li> Provide user support on the use of computer hardware and software applications.</li>
                         <li> Installing and upgrading anti-virus software to ensure security at the user level.</li>
                         <li> Repairing and replacing damaged hardware.</li>
                     </ul>
                     </p>
-                    
-            </div>
 
+                </div>
+
+            </div>
         </div>
     </div>
-</div>
 
-                                                     <!-- Portfolio -->
+    <!-- Portfolio -->
 
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title"> My Work </h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/Drumimg.PNG">
-                <div class="layer">
-                    <h3>Drumkit App</h3>
-                    <p>Drum-Project entails a fun drumkit game which is a collection of instruments set up to be played by one person.
-                       
-                    </p>
-                    <a href="https://kitdrumapp1.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Drumimg.PNG">
+                    <div class="layer">
+                        <h3>Drumkit App</h3>
+                        <p>Drum-Project entails a fun drumkit game which is a collection of instruments set up to be
+                            played by one person.
+
+                        </p>
+                        <a href="https://kitdrumapp1.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="work">
-                <img src="images/todo.PNG">
-                <div class="layer">
-                    <h3>To-Do List App</h3>
-                    <p>This To-Do List App is automatically sorted into Today, 
-                        Upcoming and custom Filter views to help you focus on your most important things.
-                        This amazing app allows you to:
+                <div class="work">
+                    <img src="images/todo.PNG">
+                    <div class="layer">
+                        <h3>To-Do List App</h3>
+                        <p>This To-Do List App is automatically sorted into Today,
+                            Upcoming and custom Filter views to help you focus on your most important things.
+                            This amazing app allows you to:
                         <ul>
                             <li>Add your tasks.</li>
                             <li>Organize your life.</li>
                             <li>Achieve more every day.</li>
-                        </ul>                      
-                        
-                         </p>
-                    <a href="https://crazy-tights-moth.cyclic.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </ul>
+
+                        </p>
+                        <a href="https://crazy-tights-moth.cyclic.app/"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>This state of the art online shopping app connects you to the talented people around the
+                            world.
+                            Download it from Google Playstore. </p>
+                        <a href="https://nice-cyan-salamander-fez.cyclic.app/"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
                 </div>
             </div>
 
-            <div class="work">
-                <img src="images/work-3.png">
-                <div class="layer">
-                    <h3>Online Shopping App</h3>
-                    <p>This state of the art online shopping app connects you to the talented people around the world.
-                        Download it from Google Playstore. </p>
-                    <a href="https://nice-cyan-salamander-fez.cyclic.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- <a class="btn" href="#">See More</a> -->
-        <!-- <a href="/adduser" type="button" class="btn btn-primary align-self-center"> + Add User</a> -->
-
-    </div>
-</div>                
-
-                    <!-- Contacts -->
-
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <div class="sub-title"> Contact Me </div>
-                <p><i class="fa-solid fa-envelope"></i> briannie254@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i> +254-771-402-856</p>
-                <p><i class="fa-brands fa-whatsapp"></i> +254-727-903-007</p> <br>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/brian-nyamumbe/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://web.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/nyamumbe.brian/"><i class="fa-brands fa-instagram"></i></i></a>
-                    <a href="https://twitter.com/Brian_22J"><i class="fa-brands fa-twitter"></i></a>   
-                                   
-                </div>
-                <a href="images/Brian CV.pdf" download class="btn btn2">Download CV</a>
-            </div>
-
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit </button>
-                </form>
-                <span id="msg"></span>
-            </div>
+            <!-- <a class="btn" href="#">See More</a> -->
+            <!-- <a href="/adduser" type="button" class="btn btn-primary align-self-center"> + Add User</a> -->
 
         </div>
     </div>
-    <div class="copyright">
-        <p>&copy; 
-        <script type="text/javascript">
-           document.write(new Date().getFullYear());
-          </script>. Made with <i class="fa-solid fa-heart"></i> by Nyamumbe_Brian Dev.   </p>
+
+    <!-- Contacts -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <div class="sub-title"> Contact Me </div>
+                    <p><i class="fa-solid fa-envelope"></i> briannie254@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +254-771-402-856</p>
+                    <p><i class="fa-brands fa-whatsapp"></i> +254-727-903-007</p> <br>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/brian-nyamumbe/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://web.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/nyamumbe.brian/"><i
+                                class="fa-brands fa-instagram"></i></i></a>
+                        <a href="https://twitter.com/Brian_22J"><i class="fa-brands fa-twitter"></i></a>
+
+                    </div>
+                    <a href="images/Brian CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy;
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script>. Made with <i class="fa-solid fa-heart"></i> by Nyamumbe_Brian Dev.
+            </p>
+        </div>
     </div>
-</div>
 
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
 
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
         }
+    </script>
 
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
         }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-</script>
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
 
-<script>
-    var sidemenu = document.getElementById("sidemenu");
 
-    function openmenu(){
-        sidemenu.style.right = "0";
-    }
-    function closemenu(){
-        sidemenu.style.right = "-200px";
-    }
-</script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxvd4v_v3eWJwqDDk_DQePocA6CxJo0V05cLcDBl0sTmnqzyigL9QKKx73-kMyL_9askA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
 
-  
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxvd4v_v3eWJwqDDk_DQePocA6CxJo0V05cLcDBl0sTmnqzyigL9QKKx73-kMyL_9askA/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message sent successfully."
-            setTimeout(function(){
-                msg.innerHTML = ''
-            }, 5000)
-            form.reset()
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully."
+                    setTimeout(function () {
+                        msg.innerHTML = ''
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-        .catch(error => console.error('Error!', error.message))
-    })
-</script>
+    </script>
 
 
 </body>
+
 </html>
